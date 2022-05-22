@@ -1,0 +1,49 @@
+*{ /*the asterisk means its a global, not specific*/
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+h1, h2 {
+    font-family: "Montserrat", sans-serif;
+}
+#profile {
+    height: 250px;
+    width:250px;
+}
+ #landing {
+     /*viewport height*/
+     height: 80vh;
+     display: flex;
+     flex-direction: column;
+     /*centering elements horizontal*/
+     align-items: center;
+     /*centering elements vertically*/
+     justify-content: center;
+ }
+  #gallery {
+     display: flex;  
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 75vh;
+     border-radius: 6px;
+  }
+.jumbotron {
+    background-color: transparent;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+h2 {
+    color: #007bff;
+}
+.tools {
+        border: 5px solid #f2f2f2;
+        margin: 20px;
+        padding: 25px;
+        height: 200px;
+        /*based on the total width of the parent*/
+        width: 75%;
+        color:whitesmoke;
+
+}
